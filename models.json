@@ -1,29 +1,11 @@
 {
-  "_comment": "JJK 24FRAMES - Models manifest. Add your GLB files to this repo and update this JSON.",
-  "_format": "categoria.nombre = { url: 'path/relativo.glb', scale: 1.0, rotY: 0 }",
-
-  "weapons": {
-    "_example_sword": {
-      "url": "weapons/sword.glb",
-      "scale": 1.0,
-      "rotY": 0,
-      "_note": "Ejemplo. Borrá esta línea cuando subas un GLB real con este nombre."
-    }
-  },
-
+  "weapons": {},
   "props": {
-    "_example_barrel": {
-      "url": "props/barrel.glb",
-      "scale": 1.5,
-      "_note": "Ejemplo. Reemplazá con tus props reales."
+    "caine": {
+      "url": "caine.glb",
+      "scale": 1.0,
+      "rotY": 0
     }
   },
-
-  "mobs": {
-    "_example_skeleton": {
-      "url": "mobs/skeleton.glb",
-      "scale": 1.0,
-      "_note": "Ejemplo. Reemplazá con tus mobs reales."
-    }
-  }
+  "mobs": {}
 }
